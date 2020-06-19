@@ -42,7 +42,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 To persist authentication across requests. One way to remember who is logged in.
 
 - [x] What does bcrypt do to help us store passwords in a secure manner.
-Hash the password 2^n times. 
+Hash the password 2^n times.
 
 - [x] What does bcrypt do to slow down attackers?
 Hash the password 2^n times. The more times(n) it does it the slower attackers can hack it. (but also the slower users can login)
@@ -52,7 +52,7 @@ Header, Payload, Signature
 
 ## Minimum Viable Product
 
-Implement an User Authentication System. Hash user's passwords before saving them to the database. Use `JSON Web Tokens` or `Sessions and Cookies` to persist authentication across requests.
+Implement a User Authentication System. Hash user's passwords before saving them to the database. Use `JSON Web Tokens` or `Sessions and Cookies` to persist authentication across requests.
 
 - [ ] Implement the `register` and `login` functionality inside `/auth/auth-router.js`. A `user` has `username` and `password`. Both properties are required.
 - [ ] Implement the `authenticate` middleware inside `/auth/authenticate-middleware.js`.
