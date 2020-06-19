@@ -42,7 +42,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 To persist authentication across requests. One way to remember who is logged in.
 
 - [x] What does bcrypt do to help us store passwords in a secure manner.
-Hash the password 2^n times.
+Hash the password 2^n times. 
 
 - [x] What does bcrypt do to slow down attackers?
 Hash the password 2^n times. The more times(n) it does it the slower attackers can hack it. (but also the slower users can login)
